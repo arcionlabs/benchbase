@@ -51,6 +51,13 @@
     <profiles>
         <profile>
             <id>arcion</id>
+            <repositories>
+            <repository>
+                <id>jumpmind</id>
+                <name>jumpmind</name>
+                <url>https://maven.jumpmind.com/repo</url>
+            </repository>
+            </repositories>            
             <properties>
                 <classifier>arcion</classifier>
             </properties>
@@ -113,7 +120,7 @@
                     <groupId>jdbc.sybase</groupId>
                     <artifactId>jconn4</artifactId>
                     <version>16.0</version>
-                </dependency>
+                </dependency>                
             </dependencies>
         </profile>
 
@@ -192,11 +199,7 @@
                 <dependency>
                     <groupId>org.mariadb.jdbc</groupId>
                     <artifactId>mariadb-java-client</artifactId>
-<<<<<<< HEAD
-                    <version>3.1.3</version>
-=======
                     <version>2.7.8</version>
->>>>>>> a5a52939 (informix)
                 </dependency>
             </dependencies>
         </profile>
@@ -363,7 +366,7 @@
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
-            <version>2.7.1</version>
+            <version>2.6.1</version>
         </dependency>
 
         <dependency>
