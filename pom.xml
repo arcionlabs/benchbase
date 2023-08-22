@@ -147,23 +147,9 @@
                     <groupId>com.ibm.db2</groupId>
                     <artifactId>jcc</artifactId>
 		            <version>11.5.8.0</version>
-            	</dependency>
+                </dependency>
             </dependencies>
-     	</profile>
-    	<profile>
-	    <id>sybase</id>
-	    <properties>
-		    <classifier>sybase</classifier>
-            </properties>
-	    <!-- https://mvnrepository.com/artifact/jdbc.sybase/jconn4 -->
-	    <dependencies>
-                <dependency>
-                    <groupId>jdbc.sybase</groupId>
-                    <artifactId>jconn4</artifactId>
-                    <version>16.0</version>
-	    	</dependency>
-    	    </dependencies>
-    	</profile>
+        </profile>
         <profile>
             <id>postgres</id>
             <properties>
