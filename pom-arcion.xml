@@ -149,7 +149,19 @@
 		            <version>11.5.8.0</version>
                 </dependency>
             </dependencies>
-        </profile>
+    </profile>
+     <profile>
+            <id>sybase</id>
+            <properties>
+                    <classifier>sybase</classifier>
+            </properties>
+                    <!-- https://mvnrepository.com/artifact/jdbc.sybase/jconn4 -->
+                <dependency>
+                    <groupId>jdbc.sybase</groupId>
+                    <artifactId>jconn4</artifactId>
+                    <version>16.0</version>
+    </dependency>
+    </profile>
         <profile>
             <id>postgres</id>
             <properties>
